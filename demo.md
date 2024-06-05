@@ -1,3 +1,6 @@
+# demo code of node.js
+
+```js
 import express from 'express';
 import mysql from 'mysql';
 const app = express();
@@ -24,3 +27,4 @@ app.get('/', (r, res) => {
 app.listen(port, () => {
     console.log(`server started: http://localhost:${port}`);
 })
+```

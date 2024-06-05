@@ -6,8 +6,8 @@ const port = 8080;
 
 const dbc=mysql.createConnection({
     host:'localhost',
-    user:'root',
-    password:'',
+    user:'forum',
+    password:'12345678',
     database:'forum'
 })
 dbc.connect(e=>{

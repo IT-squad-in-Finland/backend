@@ -20,7 +20,7 @@ app.get('/', (r, res) => {
             console.log(e);
             return;
         }
-        console.log(`users: ${vs}`);
+        console.log(`users: ${JSON.stringify(vs)}`);
     })
     res.send('ok')
 })
